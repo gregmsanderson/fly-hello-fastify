@@ -1,0 +1,15 @@
+# 1. Ignore everything
+**
+
+# 2. Allow files and directories
+!public/**
+!src/**
+!package.json
+!package-lock.json
+
+# 3. Can ignore unnecessary files that may be inside those allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
